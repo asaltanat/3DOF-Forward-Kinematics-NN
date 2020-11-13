@@ -34,7 +34,7 @@ For this task updates are made in train_fk.m/RRRtrain.m:
 | 5 layers (512:1024:2048:1024:512)| Relu| 0.1008|
 | 5 layers (256:512:1024:512:256)| Relu| 0.0659|
 | 3 layers(512:1024:512)| Relu| 0.0614|
-| 3 layers (256:512:256)| leakyRelu| 0.0.0644|
+| 3 layers (256:512:256)| leakyRelu| 0.0644|
 | 3 layers (512:1024:512)| sigmoid| 0.3084|
 | 3 layers (512:1024:512)| leakyRelu | 0.059|
 | 3 layers (512:1024:512)| tanh | 0.1163|

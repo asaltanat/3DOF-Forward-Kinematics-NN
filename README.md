@@ -42,7 +42,7 @@ For this task updates are made in train_fk.m/RRRtrain.m:
 So 3 fully connected layers with 512:1024:512  neurons and leakyRelu activation function were chosen.
 In order to decrease the error, 'maxEpochs' parameter in options was changed:
 
-*Finally Error = 0.0446*
+*Minimun Mean Error = 0.0446*
 
 ```
 

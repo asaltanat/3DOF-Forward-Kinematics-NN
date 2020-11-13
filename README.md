@@ -35,15 +35,14 @@ For this task updates are made in train_fk.m/RRRtrain.m:
 | 5 layers (256:512:1024:512:256)| Relu| 0.0659|
 | 3 layers(512:1024:512)| Relu| 0.0614|
 | 3 layers (256:512:256)| leakyRelu| 0.0.0644|
-| 3 layers(512:1024:512)| leakyRelu |0.058|
 | 3 layers (512:1024:512)| sigmoid| 0.3084|
-| 3 layers (512:1024:512)| leakyRelu | 0.0446|
+| 3 layers (512:1024:512)| leakyRelu | 0.059|
 | 3 layers (512:1024:512)| tanh | 0.1163|
 
 So 3 fully connected layers with 512:1024:512  neurons and Relu activation function were chosen.
 In order to decrease the error, 'maxEpochs' and 'MiniBatchSize' parameters in options were changed:
 
-*Finally Error = 3.88%*
+*Finally Error = 0.0446*
 
 ```
 
@@ -60,5 +59,9 @@ options = trainingOptions('adam', ...
     'Verbose',0, ...
     'Plots','training-progress');
 ```
+5 DOF  Forward Kinematics NN
+![Image 1](final5DOF.PNG)
 
-![Image 1](fl32.PNG)
+3DOF Forward Kinematics NN
+![Image 1](final3DOF.PNG)
+ mean error = 0.0393

@@ -38,6 +38,7 @@ For this task updates are made in train_fk.m/RRRtrain.m:
 | 3 layers(512:1024:512)| leakyRelu |0.058|
 | 3 layers (512:1024:512)| sigmoid| 0.3084|
 | 3 layers (512:1024:512)| leakyRelu | 0.0446|
+| 3 layers (512:1024:512)| tanh | 0.1163|
 
 So 3 fully connected layers with 512:1024:512  neurons and Relu activation function were chosen.
 In order to decrease the error, 'maxEpochs' and 'MiniBatchSize' parameters in options were changed:

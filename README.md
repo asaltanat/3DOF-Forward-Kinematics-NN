@@ -42,6 +42,8 @@ For this task updates are made in train_fk.m/RRRtrain.m:
 So 3 fully connected layers with 512:1024:512  neurons and Relu activation function were chosen.
 In order to decrease the error, 'maxEpochs' and 'MiniBatchSize' parameters in options were changed:
 
+*Finally Error = 3.88%*
+
 ```
 
 maxEpochs = 20;

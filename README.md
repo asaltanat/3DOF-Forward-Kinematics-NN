@@ -58,4 +58,4 @@ options = trainingOptions('adam', ...
     'Plots','training-progress');
 ```
 
-![Image 1](\fl32.PNG)
+![Image 1](fl32.PNG)

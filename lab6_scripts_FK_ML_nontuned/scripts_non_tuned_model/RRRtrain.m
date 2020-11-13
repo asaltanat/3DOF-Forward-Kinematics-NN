@@ -12,7 +12,7 @@ layers = [ ...
      imageInputLayer([1 1 nFeatures]);
     
     fullyConnectedLayer(512)
-    reluLayer
+    leakyReluLayer
     
     fullyConnectedLayer(1024)
     leakyReluLayer
@@ -28,7 +28,7 @@ layers = [ ...
     ]
 
 
-maxEpochs = 10;
+maxEpochs = 20;
 miniBatchSize = 100;
 
 options = trainingOptions('adam', ...
